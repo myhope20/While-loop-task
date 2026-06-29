@@ -1,0 +1,6 @@
+Sub=input("Enter your Subject")
+i = 1
+
+while i <= len(Sub):
+    print(Sub[:i])
+    i += 1
